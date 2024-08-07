@@ -20,7 +20,7 @@ This system designed to handle the Problem creation, code submission, evaluation
 4. **Submission Service:**
    * Consumes the evaluation result.
    * Updates submission details in the database.
-   * Notifies the WebSocket service about the status.
+   * Notifies the WebSocket service about the evaluation status.
 5. **WebSocket Service:**
    * Sends real-time updates to the client about the code execution status.
 
